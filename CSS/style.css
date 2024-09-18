@@ -1,0 +1,237 @@
+html{
+    font-size: 100%;
+    background-color: rgb(147, 255, 147);
+    padding: 0;
+}
+img{
+    max-width: 10%;
+    height: auto;
+}
+.divp{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: rgb(97, 255, 97);
+    border-radius: 2rem;
+}
+.divp h1{
+    align-self: center;
+    text-decoration: underline;
+}
+button{
+    margin: 0.5rem;
+    width: 80%;
+}
+#JardiTou{
+    max-width: 25%;
+    height: auto;
+}
+#Promo{
+    min-width:100%;
+    height: auto;
+}
+#suppPub{
+    border: grey;
+    border-style:solid;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    color: grey;
+}
+#pub{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 5rem;
+}
+#DivTable{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+th{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    padding: 1rem;
+}
+tr{
+    color: white;
+    text-shadow: 2px 1px 1px black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(73, 255, 73);
+}
+thead th{
+    height: 2rem;
+}
+th img{
+    height: 100%;
+}
+th:first-of-type{
+    width: 30rem;
+}
+tr:nth-of-type(2n+2){
+    background-color: rgb(34, 165, 34);
+}
+thead tr{
+    color: white;
+    background-color: rgb(1, 81, 1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Formulaire{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    background-color: rgb(97, 255, 97);
+    padding: 1;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+#radiobtn{
+    display: flex;
+    align-items: flex-start;
+}
+.obl{
+    display: flex;
+    justify-content: flex-start;
+    width: 35rem;
+}
+.obl::after{
+    content: "⁕";
+    color: red;
+}
+input:not([type="radio"]),select,textarea{
+    width: 10rem;
+}
+#bouttons{
+    display: flex;
+    justify-content: center;
+}
+.Partie{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+}
+.formdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    width: 33rem;
+    flex-wrap:wrap;
+}
+.footerul{
+    background-color: rgb(1, 81, 1);
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    margin: 0;
+    margin-top: 2rem;
+}
+.footerul li{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-shadow: 2px 1px 1px black;
+    text-decoration: none;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+#ColonneDroite{
+    background-color: grey;
+    width: 50%;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    margin-left: 0;
+}
+#AccueilBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+
+}
+body{
+    margin-bottom: 0;
+}
+h1{
+    font-size: 2rem;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: rgb(97, 255, 97);
+    padding-top: 60px;
+    transition: left 0.5s ease;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(1, 81, 1);
+    display: block;
+    transition: 0.3s;
+} 
+.sidenav a:hover {
+    color: #111;
+} 
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+.sidenav.active {
+    left: 0;
+}
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(1, 81, 1);
+    margin: 6px 0;
+}  
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    font-size: 0.5rem;
+    align-items: center;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+header h1{
+    font-size: 3rem;
+    flex-grow: 2;
+    flex-basis: 50%;
+}
+*{
+    scrollbar-width: inherit;
+    scrollbar-color: rgb(97, 255, 97) rgb(147, 255, 147);
+}

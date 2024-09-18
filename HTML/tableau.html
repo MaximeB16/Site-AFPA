@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        <title>Jarditou - Contact</title>
+        <meta charset="UTF-8">
+        <link href="../CSS/style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="../IMAGES/images/gardening.png">
+        <script src="../JS/script.js"></script>
+    </head>
+
+    <body>
+        <header>
+
+            <h1>Tableau</h1>
+
+            <div>
+                <a href="index.html">
+                    <img id="JardiTou" alt="Logo du site" src="../IMAGES/images/jarditou_logo.jpg">
+                </a>
+                <p>La qualité depuis 70 ans</p>
+            </div>
+
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close" onclick="closeNav()">×</a>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="tableau.html">Tableau</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <a href="#" id="openBtn" onclick="openNav()">
+                <div>
+                    <span class="burger-icon">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                </div>
+            </a>
+        </header>
+
+        <div id="pub">
+            <button id="suppPub" onclick="suppPub()">×</button>
+            <img id="Promo" alt="Image des promotions" src="../IMAGES/images/promotion.jpg">
+        </div>        
+
+        <div id="DivTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Photo</th>
+                        <th>Id</th>
+                        <th>Catégorie</th>
+                        <th>Libellé</th>
+                        <th>Prix</th>
+                        <th>Couleur</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><img alt="id 7" src="../IMAGES/jarditou_photos/7.jpg"></th>
+                        <th>7</th>
+                        <th>Barbecues</th>
+                        <th>Aramis</th>
+                        <th>110.00€</th>
+                        <th>Brun</th>
+                    </tr>
+                    <tr>
+                        <th><img alt="id 8" src="../IMAGES/jarditou_photos/8.jpg"></th>
+                        <th>8</th>
+                        <th>Barbecues</th>
+                        <th>Athos</th>
+                        <th>249.99€</th>
+                        <th>Noir</th>
+                    </tr>
+                    <tr>
+                        <th><img alt="id 11" src="../IMAGES/jarditou_photos/11.jpg"></th>
+                        <th>11</th>
+                        <th>Barbecues</th>
+                        <th>Clatronie</th>
+                        <th>135.90€</th>
+                        <th>Chrome</th>
+                    </tr>
+                    <tr>
+                        <th><img alt="id 12" src="../IMAGES/jarditou_photos/12.jpg"></th>
+                        <th>12</th>
+                        <th>Barbecues</th>
+                        <th>Camping</th>
+                        <th>88.00€</th>
+                        <th>Noir</th>
+                    </tr>
+                    <tr>
+                        <th><img alt="id 13" src="../IMAGES/jarditou_photos/13.jpg"></th>
+                        <th>13</th>
+                        <th>Brouette</th>
+                        <th>Green</th>
+                        <th>49.00€</th>
+                        <th>Vert</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+
+    <footer>
+
+        <ul class="footerul">
+            <li><a href="#">Mention légales</a></li>
+            <li><a href="#">Horaires</a></li>
+            <li><a href="#">Plan du site</a></li>
+        </ul>
+
+    </footer>
+</html>
